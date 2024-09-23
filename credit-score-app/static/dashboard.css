@@ -1,0 +1,110 @@
+/* Custom CSS for Dashboard */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.topbar {
+    background-color: #fdfdfd;
+    padding: 10px;
+    color: rgb(26, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.topbar li {
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+.navbar {
+    padding: 0.1rem 0.75rem;  /* Adjust padding to reduce navbar height */
+    background-color: green;
+    
+    
+    
+}
+.nav-item button{
+    color: white;
+}
+.navbar-brand {
+    font-size: 1.0rem;  /* Reduce the font size of the brand */
+    color: white;
+    
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;  /* Reduce the font size of navbar links */
+    padding: 0.1rem 0.75rem;  /* Adjust padding for smaller links */
+    color: white;
+}
+
+.navbar-toggler {
+    padding: 0.1rem 0.2rem;  /* Make the navbar toggle button smaller */
+}
+h1, h3 {
+    color: #343a40;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #444;
+    color: white;
+    
+}
+.dark-mode .navbar-brand {
+    color: white; /* Make the brand text white in dark mode */
+}
+.dark-mode .navbar-nav .nav-item .nav-link {
+    color: white; /* Make the links white in dark mode */
+}
+.dark-mode .navbar-toggler-icon {
+    filter: invert(100%); /* Make the toggle button (hamburger) white */
+}
+.dark-mode .btn {
+    background-color: #444; /* Optional: Button background in dark mode */
+    color: white; /* Make button text white */
+}
+.dark-mode .card {
+    background-color: #444;
+    color: white;
+}
+.dark-mode h1, 
+.dark-mode h3, 
+.dark-mode p {
+    color: white; /* Text inside container becomes white in dark mode */
+}
+.dark-mode .chart-container {
+    background-color: #1e1e1e;
+}
+.dark-mode .container{
+    background-color: #444;
+    color: white;
+}
+
+.container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Soft shadow around the container */
+    padding: 20px;  /* Optional: Add some padding inside the container */
+    background-color: white;  /* Optional: Background color */
+    border-radius: 8px;  /* Optional: Rounded corners */
+}
+
+/* Add box shadow to each chart canvas */
+.canvas-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow for individual charts */
+    border-radius: 8px;  /* Optional: Add rounded corners to the chart */
+    padding: 15px;  /* Optional: Add padding around the chart */
+    background-color: white;  /* Optional: Background color for the chart area */
+}
